@@ -12,4 +12,4 @@ predicate isLongerThanTenLines(Function func) {
 
 from Function func
 where isLongerThanTenLines(func)
-select func, "Found function with more than ten lines: " + func.getAbsolutePath()
+select func, "Found function with more than ten lines: " + func
